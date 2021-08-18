@@ -1,6 +1,9 @@
 def main():
     #escribe tu código abajo de esta línea
-    pass
+    nacimiento = float(input("Dame el año de nacimiento: "))
+    actual = float(input("Dame el año actual: "))
+    lustros = (actual - nacimiento)/5
+    print(f'Los lustros que has vivido son: {lustros}')
 
 
 
